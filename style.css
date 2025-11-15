@@ -1,22 +1,26 @@
 /* css file purpose is to define how the page will look, including colors, fonts, spacing, layout, and visual style */
 
+* {
+    font-family: Papyrus, sans-serif;
+  }
+  
 body {
-    background: #9cabcc;
-    color: white;
-    font-family: sans-serif;
+    background: url("space.jpg") center/cover no-repeat fixed;
+    font-family: Papyrus, sans-serif;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
     margin: 0;
   }
   
   .card {
-    background: #22c55e;
+    background: linear-gradient(135deg, #1e3a8a, #3b82f6, #0ea5e9);
     padding: 24px;
     border-radius: 20px;
     width: 340px;
-    box-shadow: 0 12px 40px rgb(0, 0, 0);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
   }
   
   .hidden {

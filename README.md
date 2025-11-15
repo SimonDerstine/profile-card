@@ -8,3 +8,5 @@ This is a very small front-end project built to practice HTML, CSS, JavaScript, 
 - JS button interaction
 - Live deployment with GitHub Pages
 
+## Live Site
+https://simonderstine.github.io/profile-card/

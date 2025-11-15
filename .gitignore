@@ -1,0 +1,6 @@
+#Special file that tells git to never track or commit these files"
+#.DS_Store - this is a macOS system file that is standard to ignore
+#Thumbs.db - this is a Windows system file that is standard to ignore
+
+.DS_Store
+Thumbs.db
